@@ -58,7 +58,8 @@ body {
 #filter-bar img {
     display: block;
     margin-bottom: 10px;
-    width: 220px; /* Ajusta el tamaño de la imagen según sea necesario */
+    margin-left: 15px;
+    width: 150px; /* Ajusta el tamaño de la imagen según sea necesario */
     height: auto; /* Mantiene la proporción de la imagen */
 }
 
