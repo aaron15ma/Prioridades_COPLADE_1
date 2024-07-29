@@ -32,17 +32,17 @@ function cargarGeoJSON() {
                             };
                         case 'Prioridad B':
                             return {
-                                fillColor: '#800000',
+                                fillColor: '#e87296',
                                 fillOpacity: 0.6,
-                                color: '#800000',
+                                color: '#e87296',
                                 weight: 2,
                                 opacity: 1
                             };
                         case 'Prioridad C':
                             return {
-                                fillColor: '#e87296',
+                                fillColor: '#800000',
                                 fillOpacity: 0.6,
-                                color: '#e87296',
+                                color: '#800000',
                                 weight: 2,
                                 opacity: 1
                             };
@@ -143,9 +143,9 @@ function getColor(prioridad) {
         case 'Prioridad A':
             return '#7030a0';
         case 'Prioridad B':
-            return '#800000';
-        case 'Prioridad C':
             return '#e87296';
+        case 'Prioridad C':
+            return '#800000';
         default:
             return '#ccc';
     }
